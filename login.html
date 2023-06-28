@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,intital scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/style1.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/d4690ced8a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="menu">
+                    <li><a href="#header" class="kk active-link">Home</a></li>
+                    <li><a href="#about" class="kk" >About</a></li>
+                    <li><a href="#Portfolio" class="kk" >Portfolio</a></li>
+                    <li><a href="#Projects" class="kk" >Projects</a></li>
+                    <li><a href="#Contact" class="kk" >Contact</a></li>
+                    <i class="fa-solid fa-xmark"  onclick="closemenu()"></i><br>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="container1">
+                <div class="no">
+                  <h1>Hi, I'm Akshay.</h1>
+                  <h3>Passionate Data Scientist Student.</h3>
+                  <p>Note that this is a simplified website using a Html and Css. As i'm a data scientist The objective is to help the organization analyze trends to make better decisions,explore and experiment with various algorithms, feature engineering techniques, and model hyperparameters to achieve the desired performance and accuracy.</p>
+                  <div class="btn-box">
+                     <a href="#about">Let's Talk.</a>
+                  </div>
+        </div>
+    </div>
+
+    <div  id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/photo.jpeg" alt="hii">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me.</h1>
+                    <p>.</p>
+                  <div class="text"> 
+                    <p class="text-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="text-links" onclick="opentab('experience')">Experience</p>
+                    <p class="text-links" onclick="opentab('education')">Education</p>
+                  </div>
+                  <div class="tabcontents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web development</span><br>protofolio using Html and Css.</li><br>
+                        <li><span>Python</span><br>Project on Data Visualization.</li><br>
+                        <li><span>Data Scientist</span><br>Projects on Data Analysis.</li><br>
+                    </ul>
+                  </div>
+                
+                <div class="tabcontents" id="experience">
+              </div>
+                  <div class="tabcontents" id="education" style="margin: 10px 0;">
+                    <ul>
+                        <li><span>2018</span><br>Jnhs high school / 8.5</li><br>
+                        <li><span>2020</span><br>Narayana Junior College / 94%</li><br>
+                        <li><span>2024</span><br>Vaagdevi Engineering College / 6.7</li><br>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div  id="Projects">
+        <div class="container">
+            <h1 class="sub-title">Projects.</h1>
+            <div class="project-list">
+                <div><a href="">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Portfolio.</h2>
+                    <p>This is a simple protofolio made by usng Html and Css.</p>
+                <br><a href="">Learn more</a>
+                </div></a>
+                <div><a href="https://github.com/akshaysreeramoju/Data-Visualization-on-Covid_19">
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h2>Data visualization.</h2>
+                    <p>Data Visualization project is done on Covid_19.</p>
+                    <br><a href="https://github.com/akshaysreeramoju/Data-Visualization-on-Covid_19">Learn more</a>
+                </div></a>
+            <div><a>
+                <i class="fa-solid fa-chart-simple"></i>
+                <h2>Data Analysis.</h2>
+                <p>This project is analyzed on Doctor Visit.</p>
+                <br><a href="#">Learn more</a>
+            </div></a>
+        </div>
+   </div>
+        <br>
+    <div  id="Portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                <div class="work">
+                    <img src="/images/work.jpeg">
+                    <div class="layer">
+                        <h3>Data Visualization</h3>
+                        <p>This web app describe my skills and talents on Data Visualization.</p>
+                        <a href="https://github.com/akshaysreeramoju/Data-Visualization-on-Covid_19"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/work-2.png">
+                    <div class="layer">
+                        <h3> Protofolio</h3>
+                        <p>This web app describe my skills and talents on Html and Css.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/work-3.jpeg">
+                    <div class="layer">
+                        <h3>Data Analysis</h3>
+                        <p>This web app describe my skills and talents on Data Analysis.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+               </div>
+               <a href="#Projects" class="btn">See More</a>
+           </div>
+    </div>
+
+    <div  id="Contact">
+            <div class="container">
+                <div class="row">
+                  <div class="contact-left">
+                      <h1 class="sub-title">Contact Me</h1>
+                      <p><i class="fa-solid fa-paper-plane"></i>sreeramojuakshay@gmail.com</p>
+                      <p><i class="fa-sharp fa-solid fa-phone"></i>+919398782088</p>
+                     <div class="icon">
+                          <a href="https://www.linkedin.com/in/akshay-sreeramoju-73b5b7260/"><i class="fa-brands fa-linkedin-in"></i></a>
+                          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                          <a href="https://mail.google.com/mail/#inbox?compose=sreeramojuakshay"><i class="fa-regular fa-envelope"></i></a>
+                     </div>
+                   </div>
+                 <div class="contact-right">
+                      <form>
+                         <input type="text" name="Name" placeholder="Your Name" required>
+                         <input type="email" name="email" placeholder="Your Email" required>
+                         <textarea name="Message" rows="6" column="10" placeholder="Your Message"></textarea>
+                         <button type="submit" class="btn-btn2">Submit</button>
+                      </form>
+                  </div>
+                </div>
+            </div>
+    </div>
+            <div class="cpyright">
+                <p>Copyright © Akshay 2023 </p>
+            </div>
+    <script src="/script.js"></script>
+</body>
+</html>
