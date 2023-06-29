@@ -158,9 +158,9 @@ Go to `/login.html` and put your information, there are 5 sections:
    </div>
         <br>
 <!-- /END Projects div -->
+```
 
-
-### (3) Protofolio div
+### (4) Protofolio div
 
 - Each work lives inside a `div`.
 - On `<h3>` ,include your project title.
@@ -168,6 +168,7 @@ Go to `/login.html` and put your information, there are 5 sections:
 - On first `<a>` tag, put your project url on `href` property.
 - On second `<a>` tag, put your project repository url on `href` property.
 
+```html
 <!-- **** Protofolio div **** -->
 <div  id="Portfolio">
             <div class="container">
@@ -202,10 +203,11 @@ Go to `/login.html` and put your information, there are 5 sections:
            </div>
     </div>
 <!-- /END Protofolio div -->
+```
 
 
 
-### (4) Contact Section
+### (5) Contact div
 
 - On `<p>` , include some custom mail,id and phone numbers.
 - On `<a>` tag, put your email address on `href` property.
@@ -237,4 +239,5 @@ Go to `/login.html` and put your information, there are 5 sections:
             </div>
     </div>
 <!-- /END Contact div -->
+```
 
