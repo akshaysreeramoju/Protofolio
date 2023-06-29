@@ -34,7 +34,7 @@ $ git clone https://github.com/akshaysreeramoju/Protofolio.git
 $ cd Protofolio
 
 # Remove the current origin repository
-$ git remote remove origin
+$ git remote remove akshay
 ```
 
 ## Template Instructions:
