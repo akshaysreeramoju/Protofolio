@@ -131,7 +131,7 @@ Go to `/login.html` and put your information, there are 5 sections:
 - On first `<a>` tag, put your project url on `href` property.
 - On second `<a>` tag, put your project repository url on `href` property.
 
----
+```html
 <!-- ****Projects div **** -->
  <div  id="Projects">
         <div class="container">
